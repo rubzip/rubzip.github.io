@@ -1,22 +1,22 @@
 # Degree
-- degree: <a href="https://www.ugr.es/en/study/undergraduate/programmes/physics">Bachelor degree in Physics</a>
-  uni: University of Granada (UGR)
+- degree: Bachelor degree in Physics
+  uni: <a href="https://www.ugr.es/en/study/undergraduate/programmes/physics">University of Granada (UGR)</a>
   year: 2017 &mdash; 2022
   skills:
     - skill: Experience in physics laboratory (<b>writing papers</b>, <b>linear regression</b>, <b>statistical hypothesis testing</b>, <b>plotting graphics</b>, <b>propagation of uncertainty</b>).
     - skill: Large knowledge in lineal algebra (<b>diagonalization</b>, <b>metrics</b>, <b>Hilbert space</b>) and calculus (<b>differential calculus</b> and <b>complex analysis</b>).
     - skill: <b>Classical mechanics</b>, <b>quantum mechanics</b>, <b>electromagnetism</b>, <b>optics</b>, <b>thermodynamics</b>, <b>simulations</b>...
   summary: Average grade - 6.900 / 10.000
+    - skill: Experience in physics laboratory (<b>writing papers</b>, <b>linear regression</b>, <b>statistical hypothesis testing</b>, <b>plotting graphics</b>, <b>propagation of uncertainty</b>).
+    - skill: Large knowledge in lineal algebra (<b>diagonalization</b>, <b>metrics</b>, <b>Hilbert space</b>) and calculus (<b>differential calculus</b> and <b>complex analysis</b>).
+    - skill: <b>Classical mechanics</b>, <b>quantum mechanics</b>, <b>electromagnetism</b>, <b>optics</b>, <b>thermodynamics</b>, <b>simulations</b>...
 
 - degree: IBM Data Science Professional Certificate
-  uni: <a href="https://www.coursera.org/professional-certificates/ibm-data-science">Coursera</a>
+  uni: <a href="https://www.coursera.org/professional-certificates/ibm-data-science">Coursera Specialization</a>
   year: 2021 &mdash; Present
-  skills:
-    - skill: Introduction to data science and machine learning. <b>Jupyter Notebooks</b>, <b>Git</b>, <b>SQL</b>, <b>Matplotlib</b>, <b>Pyplot</b>, <b>Pandas</b>, <b>Numpy</b>, <b>Sci-kit learn</b>, <b>APIs</b>...
+  summary: Introduction to data science and machine learning. <b>Jupyter Notebooks</b>, <b>Git</b>, <b>SQL</b>, <b>Matplotlib</b>, <b>Pyplot</b>, <b>Pandas</b>, <b>Numpy</b>, <b>Sci-kit learn</b>, <b>APIs</b>...
 
 - degree: Deep Learning Specialization by DeepLearning.AI
-  uni: <a href="https://www.coursera.org/specializations/deep-learning">Coursera</a>
+  uni: <a href="https://www.coursera.org/specializations/deep-learning">Coursera Specialization</a>
   year: 2021 &mdash; Present
-  skills:
-    - skill: Study of most important Deep Learning algorithms. <b>Vectoritation</b>, <b>backpropagation</b>,<b> multilayer neural network</b>,<b> hyperparameter tuning</b>,<b> convolutional neural network</b>,<b> sequencial models</b>.
-    - skill: <b>Python</b>, <b>Numpy</b> and <b>Tensorflow</b>.
+  summary: Study of most important Deep Learning algorithms. <b>Vectoritation</b>, <b>backpropagation</b>,<b> multilayer neural network</b>,<b> hyperparameter tuning</b>,<b> convolutional neural network</b>,<b> sequencial models</b>. <b>Python</b>, <b>Numpy</b> and <b>Tensorflow</b>.
