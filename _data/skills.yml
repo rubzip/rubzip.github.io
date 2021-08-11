@@ -1,21 +1,21 @@
 # Skills
 - skill: English
   description: Intermediate level.
-  
+
 - skill: Python
-  description:  I feel confident working with data structures, OOP, functional programming, numpy, pandas, pip and jupyter notebooks. Now I'm learning SQL, Tensorflow and Keras. 
-  
-- skill: Linux enthusiast
-  description:  Estoy familiarizado con el linux envioroment and la termnal de liux. Pop! OS user.  
+  description:  I feel confident working with data structures, OOP, functional programming, numpy, pandas, pip and jupyter notebooks. Now I'm learning SQL, Tensorflow and Keras.
 
 - skill: Maths
-  description:  Advanced knowledge on maths (algebra, calculus and stadistics). Good solving hard problems. Analical mind  
+  description:  Advanced knowledge on maths (algebra, calculus and stadistics). Good solving hard problems. Analical mind.
 
 - skill: Physics
-  description:  
-  
+  description: Advanced knowledge on physics, last year student of physics.
+
 - skill: Team worker
-  description:  I would describe myself as creativo, asertivo y open minded. 
+  description:  I would describe myself as creative, assertive and open minded.
 
 - skill: Deep Learning
-  description:  Currently estudiando los principales algoritmos desde el punto de vista matemático (deep, convolutional and recurrent neural networks).
+  description:  Currently studying fundamentals of neural networks. You can see some personal projects on <a href="https://github.com/rubzip">Github</a>.
+
+- skill: Linux enthusiast
+  description:  I'm acquainted with linux environment and linux console. Pop! OS user.
