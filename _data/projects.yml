@@ -2,11 +2,10 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-  - project: Digit recognition Neural Networks
+- project: Digit recognition Neural Networks
   role: Deep learning project
   duration: Jupyter Notebook
   url: "https://github.com/rubzip/ML_Digit_recognizer_MNIST"
-
   description: First deep learning project made by my own way. I implemented a sigle neuron neural network, a single layer NN, a L layer NN and a convolutional NN. I used <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST DataFrame</a>.
 
 
