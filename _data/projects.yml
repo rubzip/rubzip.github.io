@@ -2,8 +2,8 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-  role: Deep learning project
   - project: Digit recognition Neural Networks
+  role: Deep learning project
   duration: Jupyter Notebook
   url: "https://github.com/rubzip/ML_Digit_recognizer_MNIST"
 
