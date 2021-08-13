@@ -5,7 +5,7 @@
 - project: Digit recognition on <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST DataBase</a>
   role: Deep learning project
   duration: Jupyter Notebook
-  url: <a href="https://github.com/rubzip/ML_Digit_recognizer_MNIST">GitHub</a>
+  url: "https://github.com/rubzip/ML_Digit_recognizer_MNIST"
   description: First deep learning project made by my own way. I implemented a sigle neuron neural network, a single layer NN, a L layer NN and a convolutional NN.
 
 
@@ -13,7 +13,7 @@
 - project: Solving <a href="https://en.wikipedia.org/wiki/Zebra_Puzzle">Zebra Puzzle</a> with python
   role: Leisure project
   duration: python
-  url: <a href="https://github.com/rubzip/ML_Digit_recognizer_MNIST">GitHub</a>
+  url: "https://github.com/rubzip/ML_Digit_recognizer_MNIST"
   description: When I knew about <a href="https://en.wikipedia.org/wiki/Zebra_Puzzle">Zebra Puzzle</a> I immediately thought in programming a solution for this problem. It has been solved by the "smart way" not by trial and error. The program obtains a solution in 9 iterations (time of execution on my laptop - 0.00085 secs) .
 
 
@@ -30,6 +30,3 @@
 #  duration: 2007 &mdash; Present
   # url: "#"
 #  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
-  
-  
- 
