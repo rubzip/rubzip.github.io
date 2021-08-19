@@ -12,7 +12,7 @@
 - project: Solving Zebra Puzzle with python
   role: Leisure project
   duration: python
-  url: "https://github.com/rubzip/ML_Digit_recognizer_MNIST"
+  url: "https://github.com/rubzip/Acertijo_Einstein"
   description: When I knew about <a href="https://en.wikipedia.org/wiki/Zebra_Puzzle">Zebra Puzzle</a> I immediately thought in programming a solution for this problem. It has been solved by the "smart way" not by trial and error. The program obtains a solution in 9 iterations (time of execution on my laptop - 0.00085 secs) .
 
 
