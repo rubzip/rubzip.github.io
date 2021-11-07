@@ -8,7 +8,7 @@
   url: "https://github.com/rubzip/PoliticalPass/blob/main/README.md"
   description: My first DL proyect, consist of a neural network that predicts if a twitter account is left-wing or right-wing based on the last 100 tweets. [IN PROGRESS].
   
-- project: FilmAffinity`s lists platforms
+- project: FilmAffinity's lists platforms
   role: Web Scraping project
   duration: Jupyter Notebook
   url: "https://github.com/rubzip/FilmAffinity-s-lists-platforms/blob/main/README.md"
