@@ -14,11 +14,11 @@
 - skill: Deep Learning
   description:  Currently studying fundamentals of neural networks. You can see some personal projects on <a href="https://github.com/rubzip">Github</a>.
 
-- skill: Linux enthusiast
-  description:  I'm acquainted with linux environment and linux console. Pop! OS user.
-
 - skill: Physics
   description: Advanced knowledge on physics, last year student.
 
 - skill: Team worker
   description:  I would describe myself as creative, assertive and open minded.
+  
+- skill: Linux enthusiast
+  description:  I'm acquainted with linux environment and linux console. Pop! OS user.
