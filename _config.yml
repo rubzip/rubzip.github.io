@@ -21,7 +21,7 @@ resume_contact_telephone:       ""
 resume_contact_address:         "Granada, Andalusia, Spain"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Last year student of physics. I would describe myself as open minded, creative, curious and analytical. I decided to study physics because I enjoy solving hard problems. I would like to have a job where I could grow as a professional and start to apply all my theorical knowledge.</p>"
+resume_header_intro: "<p>Last year student of physics. I decided to study physics because I enjoy solving hard problems. I would like to have a job where I could grow as a professional and start to apply all my theorical knowledge.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
