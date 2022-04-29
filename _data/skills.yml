@@ -11,8 +11,8 @@
 - skill: Maths
   description:  Advanced knowledge on maths (algebra, calculus and stadistics). I'm good solving hard problems. 
 
-- skill: Deep Learning
-  description:  Currently studying fundamentals of neural networks. You can see some personal projects on <a href="https://github.com/rubzip">Github</a>.
+- skill: Machine Learning & Deep Learning
+  description:  As a physicist building models is what I more enjoy. I have worked mostly with Scikit-learn, TensorFlow and keras.
 
 - skill: Physics
   description: Advanced knowledge on physics, last year student.
@@ -21,4 +21,4 @@
   description:  I would describe myself as creative, assertive and open minded.
   
 - skill: Linux enthusiast
-  description:  I'm acquainted with linux environment and linux console. Pop! OS user.
+  description:  I'm familiar with linux environment and linux console. Pop! OS user.
