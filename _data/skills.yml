@@ -6,7 +6,10 @@
   description: Intermediate level. I'm currently preparing Cambridge's B2 exam by my own.
 
 - skill: Python
-  description:  I feel confident working with basic data structures, OOP, functional programming, numpy, pandas, pip and jupyter notebooks. Now I'm learning SQL, Tensorflow and Keras.
+  description:  I feel confident working with basic data structures, OOP, functional programming, numpy, pandas, pip and jupyter notebooks.
+
+- skill: SQL
+  description:  Medium level wirtting queries: GROUP BY functions, OVER functions, JOINs, temporal tables, subqueries... Basic RDB concepts primary key, foreign key, DB normalization... 
 
 - skill: Maths
   description:  Advanced knowledge on maths (algebra, calculus and stadistics). I'm good solving hard problems. 
