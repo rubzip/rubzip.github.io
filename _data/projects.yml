@@ -14,10 +14,10 @@
   url: "https://github.com/rubzip/FilmAffinity-s-lists-platforms/blob/main/README.md"
   description: FilmAffinity doesn't show in what platforms you can watch movies from a list. Using python and BeautifulSoup4 I have implemented a solution for this problem. 
 
-- project: Digit recognition Neural Networks
+- project: Digit recognition with Neural Networks
   role: Deep learning project
   duration: Jupyter Notebook
-  url: "https://github.com/rubzip/ML_Digit_recognizer_MNIST"
+  url: "https://github.com/rubzip/cnn-minist"
   description: First deep learning project made by my own way. I implemented a CNN. I used <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST DataSet</a>.
 
 - project: Solving Zebra Puzzle with python
