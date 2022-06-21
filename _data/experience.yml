@@ -4,9 +4,9 @@
   position: Cívica Software
   duration: March 2022 &mdash; August 2022
   summary: 
-    - "DB queries: Microsoft SQL server"
-    - "Cloud data warehouse: SnowFlake"
-    - "ETL process: Powercenter and ELT: dbt"
+    - skill: "DB queries: Microsoft SQL server"
+    - skill: "Cloud data warehouse: SnowFlake"
+    - skill: "ETL process: Powercenter and ELT: dbt"
     
 - company: Tutor
   position: Freelance
