@@ -21,7 +21,7 @@ resume_contact_telephone:       ""
 resume_contact_address:         "Granada, Andalucía, Spain"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>My name is Rubén, and I am a Spaniard data scientist with a background in Physics. I consider myself a creative, empathetic, and open minded person. Maths, science, technology, and cinema are my passions. My friends often joke that $'m constantly questioning the why behind things.</p>"
+resume_header_intro: "<p>My name is Rubén, and I am a Spaniard data scientist with a background in Physics. I consider myself a creative, empathetic, and open minded person. Maths, science, technology, and cinema are my passions. My friends often joke that I'm constantly questioning the why behind things.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
