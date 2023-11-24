@@ -1,6 +1,6 @@
 # Skills
-- skill: Spanish
-  description: First language.
+#- skill: Spanish
+#  description: First language.
 
 - skill: English
   description: Intermediate level. I'm currently preparing Cambridge's B2 exam by my own.
@@ -9,16 +9,16 @@
   description:  I feel confident working with basic data structures, OOP, functional programming, numpy, pandas, pip and jupyter notebooks.
 
 - skill: SQL
-  description:  Medium level wirtting queries, GROUP BY functions, OVER functions, JOINs, temporal tables, subqueries... Basic RDB concepts primary key, foreign key, DB normalization... 
+  description:  Advanced level using SQL for queries. 
 
 - skill: Maths
   description:  Advanced knowledge on maths (algebra, calculus and stadistics). I'm good solving hard problems. 
 
-- skill: Machine Learning & Deep Learning
-  description:  As a physicist building models is what I more enjoy. I have worked mostly with Scikit-learn, TensorFlow and keras.
-
 - skill: Physics
-  description: Advanced knowledge on physics, last year student.
+  description: Advanced knowledge on physics.
+  
+- skill: Machine Learning & Deep Learning
+  description:  I have worked mostly with Scikit-learn, TensorFlow and keras.
 
 - skill: Team worker
   description:  I would describe myself as creative, assertive and open minded.
