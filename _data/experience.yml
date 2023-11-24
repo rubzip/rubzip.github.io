@@ -3,7 +3,7 @@
 
 - company: Data Scientist
   position: EY
-  duration: 2022 &mdash; 2023
+  duration: December 2022 &mdash; September 2023
   summary: I worked with a small team on the development of a classification model based on <b>NLP</b> (<i>Python</i>) with the aim of assigning a tax code to a product. We industrialized the solution using Azure Data Factory. Overall accuracy of the model 83%. Development of an <b>ELT</b> process in <b>Snowflake</b> using <i>pySpark</i>, <i>SQL</i>, and <i>Stored Procedres</i>. Achieved <i>full automation</i> of the entire process, from new data arrival in Azure Blob Storage to the gold layer in SnowFlake.
 
 - company: Data engineer Intern
