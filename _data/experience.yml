@@ -6,7 +6,7 @@
   duration: December 2022 &mdash; September 2023
   summary: <p>I worked with a small team on the development of a classification model based on <b>NLP</b> (<i>Python</i>) with the aim of assigning a tax code to a product. We industrialized the solution using Azure Data Factory. Overall accuracy of the model 83%.</p> <p>Development of an <b>ELT</b> process in <b>Snowflake</b> using <i>pySpark</i>, <i>SQL</i>, and <i>Stored Procedres</i>. Achieved <i>full automation</i> of the entire process, from new data arrival in Azure Blob Storage to the gold layer in SnowFlake.</p>
 
-- company: Data engineer Intern
+- company: Trainee Data Engineer
   position: Cívica Software
   duration: March 2022 &mdash; August 2022
   summary: <p>I received training on SQL, dbt, data engineering, pySpark and business. </p><p>I worked on developing a battery of SQL tests to validate financial data. Part of the work involved optimizing existing queries, and in some tests, we achieved a 70% improvement in performance.</p>
