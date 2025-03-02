@@ -1,6 +1,6 @@
 # Degree
 - degree: Master's degree in Natural Language Processing
-  uni: <a href="https://www.ugr.es/en/study/undergraduate/programmes/physics">University of the Basque Country (UPV/EHU)</a>
+  uni: <a href="http://ixa.si.ehu.es/master/index.php?lang=en">University of the Basque Country (UPV/EHU)</a>
   year: 2023 &mdash; 2024
   awards:
     - award: <b>Expected Skills </b> Linguistics, Semantics, Deep Learning, Transformers, Speech recognition, NLTK...
@@ -14,13 +14,13 @@
     - award: <b>Programming Skills</b> Python (3 years), Matlab (2 years), C++ (2 years). 
 #  summary: GPA - 7.0 / 10.0
 
-- degree: Deep Learning Specialization by DeepLearning.AI
-  uni: <a href="https://www.coursera.org/specializations/deep-learning">Coursera Specialization</a>
-  year: 2021 &mdash; 2022
-  summary: Study of most important Deep Learning algorithms. <b>Vectoritation</b>, <b>backpropagation</b>,<b> multilayer neural network</b>,<b> hyperparameter tuning</b>,<b> convolutional neural network</b>,<b> sequencial models</b>. <b>Python</b>, <b>Numpy</b> and <b>Tensorflow</b>. <a href="https://coursera.org/verify/specialization/UP6BKXUJWKCV">Verification</a>.
+#- degree: Deep Learning Specialization by DeepLearning.AI
+#  uni: <a href="https://www.coursera.org/specializations/deep-learning">Coursera Specialization</a>
+#  year: 2021 &mdash; 2022
+#  summary: Study of most important Deep Learning algorithms. <b>Vectoritation</b>, <b>backpropagation</b>,<b> multilayer neural network</b>,<b> hyperparameter tuning</b>,<b> convolutional neural network</b>,<b> sequencial models</b>. <b>Python</b>, <b>Numpy</b> and <b>Tensorflow</b>. <a href="https://coursera.org/verify/specialization/UP6BKXUJWKCV">Verification</a>.
 
-- degree: IBM Data Science Professional Certificate
-  uni: <a href="https://www.coursera.org/professional-certificates/ibm-data-science">Coursera Specialization</a>
-  year: 2021 &mdash; 2021
-  summary: Introduction to data science and machine learning. <b>Jupyter Notebooks</b>, <b>Git</b>, <b>SQL</b>, <b>Matplotlib</b>, <b>Pyplot</b>, <b>Pandas</b>, <b>Numpy</b>, <b>Sci-kit learn</b>, <b>APIs</b>... <a href="https://www.coursera.org/account/accomplishments/professional-cert/TWWFPD5XFUZ8">Verification</a>.
+#- degree: IBM Data Science Professional Certificate
+#  uni: <a href="https://www.coursera.org/professional-certificates/ibm-data-science">Coursera Specialization</a>
+#  year: 2021 &mdash; 2021
+#  summary: Introduction to data science and machine learning. <b>Jupyter Notebooks</b>, <b>Git</b>, <b>SQL</b>, <b>Matplotlib</b>, <b>Pyplot</b>, <b>Pandas</b>, <b>Numpy</b>, <b>Sci-kit learn</b>, <b>APIs</b>... <a href="https://www.coursera.org/account/accomplishments/professional-cert/TWWFPD5XFUZ8">Verification</a>.
 
