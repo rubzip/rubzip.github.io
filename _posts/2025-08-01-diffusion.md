@@ -342,7 +342,7 @@ The loss function is trained to be able to predict the noise that was added to a
    $$x_t = \sqrt{\bar{\alpha}_t}\,x_0 + \sqrt{1 - \bar{\alpha}_t}\,\epsilon$$
 7. &nbsp;&nbsp;&nbsp;Take gradient descent step on the difference between the predicted noise and the actual noise
 
-   $$\nabla_\theta \big\| \epsilon - \epsilon_\theta(x_t\,\varepsilon,\, t) \big\|^2$$  
+   $$\nabla_\theta \big\| \epsilon - \epsilon_\theta(x_t\, t) \big\|^2$$  
 8. **until converged**
 
 ## Generation loop
