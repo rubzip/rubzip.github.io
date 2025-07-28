@@ -333,6 +333,14 @@ The loss function is trained to be able to predict the noise that was added to a
 
 ## Training loop
 
+1. **repeat**  
+2. &nbsp;&nbsp;&nbsp;Sample \(x_0 \sim q(x_0)\)  
+3. &nbsp;&nbsp;&nbsp;Sample \(t \sim \text{Uniform}(\{1, \dots, T\})\)  
+4. &nbsp;&nbsp;&nbsp;Sample \(\varepsilon \sim \mathcal{N}(0, I)\)  
+5. &nbsp;&nbsp;&nbsp;Take gradient descent step on  
+   $$\nabla_\theta \big\| \varepsilon - \varepsilon_\theta(\sqrt{\bar{\alpha}_t}\,x_0 + \sqrt{1 - \bar{\alpha}_t}\,\varepsilon,\, t) \big\|^2$$  
+6. **until converged**
+
 ## Generation loop
 
 ## Resources
