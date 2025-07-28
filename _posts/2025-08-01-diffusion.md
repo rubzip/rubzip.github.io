@@ -347,7 +347,7 @@ The loss function is trained to be able to predict the noise that was added to a
 
 1. Sample $$x_T \sim \mathcal{N}(\textbf{0}, \textbf{I})$$
 2. **for** t = T, ..., 1 **do**
-3. &nbsp;&nbsp;&nbsp;Sample $$z \sim \mathcal{N}(\textbf{0}, \textbf{I}) \text{ if } t > 1 else z = \textbf{0}$$  
+3. &nbsp;&nbsp;&nbsp;Sample $$z \sim \mathcal{N}(\textbf{0}, \textbf{I}) \text{ if } t > 1 text{ else } z = \textbf{0}$$  
 4. &nbsp;&nbsp;&nbsp;Compute the denoised image
 
    $$x_{t-1} = \frac{1}{\sqrt{\alpha_t}}  \left( x_t - \frac{1 - \alpha_t}{\sqrt{1 - \bar{\alpha}_t}} \, \varepsilon_\theta(x_t, t) \right) + \sigma_t z$$
