@@ -339,7 +339,7 @@ The loss function is trained to be able to predict the noise that was added to a
 4. &nbsp;&nbsp;&nbsp;Sample $$\varepsilon \sim \mathcal{N}(0, I)$$
 5. &nbsp;&nbsp;&nbsp;Compute the noised image
 
-   $$x_t = \sqrt{\bar{\alpha}_t}\,x_0 + \sqrt{1 - \bar{\alpha}_t}\,\epsilon$$
+   $$x_t = \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1 - \bar{\alpha}_t}\epsilon$$
 7. &nbsp;&nbsp;&nbsp;Take gradient descent step on the difference between the predicted noise and the actual noise
 
    $$\nabla_\theta \big\| \epsilon - \epsilon_\theta(x_t\, t) \big\|^2$$  
