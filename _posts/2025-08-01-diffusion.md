@@ -333,19 +333,25 @@ The loss function is trained to be able to predict the noise that was added to a
 
 ## Training loop
 
-1. **repeat**  
-2. &nbsp;&nbsp;&nbsp;Sample $$x_0 \sim q(x_0)$$  
-3. &nbsp;&nbsp;&nbsp;Sample $$t \sim \text{Uniform}(\{1, \dots, T\})$$  
-4. &nbsp;&nbsp;&nbsp;Sample $$\varepsilon \sim \mathcal{N}(0, I)$$
-5. &nbsp;&nbsp;&nbsp;Compute the noised image
+1. Sample $$x_0 \sim q(x_0)$$  
+2. Sample $$t \sim \text{Uniform}(\{1, \dots, T\})$$  
+3. Sample $$\epsilon \sim \mathcal{N}(0, I)$$
+4. Compute the noised image
 
    $$x_t = \sqrt{\bar{\alpha}_t}x_0 + \sqrt{1 - \bar{\alpha}_t}\epsilon$$
-7. &nbsp;&nbsp;&nbsp;Take gradient descent step on the difference between the predicted noise and the actual noise
+5. Take gradient descent step on the difference between the predicted noise and the actual noise
 
    $$\nabla_\theta \big\| \epsilon - \epsilon_\theta(x_t\, t) \big\|^2$$  
-8. **until converged**
 
 ## Generation loop
+
+1. Sample $$x_T \sim \mathcal{N}(\textbf{0}, \textbf{I})$$
+2. **for** t = T, ..., 1 **do**
+3. &nbsp;&nbsp;&nbsp;Sample $$z \sim \mathcal{N}(\textbf{0}, \textbf{I}) \text{if} t > 1 else z = \textbf{0}$$  
+4. &nbsp;&nbsp;&nbsp;Compute the denoised image
+
+$$x_{t-1} = \frac{1}{\sqrt{\alpha_t}}  \left( x_t - \frac{1 - \alpha_t}{\sqrt{1 - \bar{\alpha}_t}} \, \varepsilon_\theta(x_t, t) \right) + \sigma_t z$$
+5. **endfor**
 
 ## Resources
 * [Denoising Diffusion Probabilistic Models (DDPM)](https://arxiv.org/abs/2006.11239) – The original paper by Ho et al. that introduced diffusion models for generative modeling.
