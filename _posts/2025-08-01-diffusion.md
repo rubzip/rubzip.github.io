@@ -42,21 +42,22 @@ $$
 
 ---
 
+![Noising process example on an image over 500 steps. For testing if each distribution was likely a N(0, 1) distribution, it was applied Kolmogorov-Smirnov test.](/images/diffusion/naive_distribution_subplots.png)
+
+Noising process example on an image over 500 steps. For testing if each distribution was likely a $$\mathcal{N}(0, 1)$$ distribution, it was applied Kolmogorov-Smirnov test.
+
 The problem with this method is that the distribution diverges at: 
 
 $$
 \lim_{t \to \infty} x_t \sim \lim_{\sigma \to \infty} \mathcal{N}(0, \sigma^2)
 $$
 
-This phenomenon is called "variance exploitation". 
+This phenomenon is called *variance exploitation*. 
 
 ![Noising process example on an image over 500 steps. For testing if each distribution was likely a N(0, 1) distribution, it was applied Kolmogorov-Smirnov test.](/images/diffusion/naive_diffusion_subplots.png)
 
 Noising process example on an image over 500 steps. For testing if each distribution was likely a $$\mathcal{N}(0, 1)$$ distribution, it was applied Kolmogorov-Smirnov test.
 
-![Noising process example on an image over 500 steps. For testing if each distribution was likely a N(0, 1) distribution, it was applied Kolmogorov-Smirnov test.](/images/diffusion/naive_distribution_subplots.png)
-
-Noising process example on an image over 500 steps. For testing if each distribution was likely a $$\mathcal{N}(0, 1)$$ distribution, it was applied Kolmogorov-Smirnov test.
 
 ## Diffusion method
 
