@@ -14,11 +14,11 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Projects"
+  - title: "Code"
     url: /portfolio/
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Miscelanea"
+  - title: "Posts"
     url: /year-archive/
