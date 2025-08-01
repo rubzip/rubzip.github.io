@@ -10,77 +10,110 @@ tags:
 
 *This post was translated using ChatGPT. To see the original one click [here](/posts/2025/08/tortilla-patatas/).*
 
-Como buen español, uno de mis platos favoritos es la [tortilla de patatas](https://es.wikipedia.org/wiki/Tortilla_de_patatas). Es curioso que un plato con tan pocos ingredientes tenga tantas versiones y genere tanta discusión: si lleva cebolla o no, el punto de cocción, si se cortan las patatas en cubitos o en láminas... Durante toda mi vida he probado muchas versiones de este plato y, en los últimos años, he estado experimentando cómo cocinarlo. Todas las versiones están ricas, pero hoy quiero compartir la que, para mí, es la mejor.
+As a proud Spaniard, one of my favorite dishes is the classic [Spanish omelette](https://en.wikipedia.org/wiki/Spanish_omelette). It’s fascinating how a dish with so few ingredients can have so many variations and spark endless debate: [with or without onion](https://www.reddit.com/r/askspain/comments/n19mdt/tortilla_de_patatas_with_or_without_onion_what_do/), [how runny it should be](https://www.reddit.com/r/spain/comments/ullhvp/grado_de_cuajaci%C3%B3n_de_la_tortilla_de_patatas_yo/), whether to cut the potatoes into cubes or thin slices…  
 
-La receta que presento es para unas 2 o 3 personas.
+Throughout my life, I’ve tasted countless versions and, in recent years, have experimented with making it myself. Every version has its charm, but today I’m sharing the one I consider the best. My ideal tortilla includes onion, thinly sliced potatoes, and is cooked to a doneness level [between 4 and 5](https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fc4kj77b1hey81.jpg).
 
-Ingredientes
-======
-* 1 kg de patatas. Buenas variedades: **monalisa, agria, kennebec**
-* 1 cebolla grande o 2 medianas. Buenas variedades: **dulce, babosa**
-* 6 huevos grandes
-* Aceite de oliva (recomendado) o de girasol
-* Sal
+This recipe serves about 2–3 people.
 
-Mise en place
-======
-La tortilla de patatas es un plato muy sencillo (que no fácil). Para la preparación, hay que pelar las patatas y cortarlas en rodajas finas de unos 3 a 5 mm. Una vez cortadas, ponlas en agua fría y lávalas bien para eliminar el exceso de almidón. Repite este proceso unas 3 veces.
+---
 
-La cebolla se debe cortar en **brunoise**.
+## 🥔 Ingredients
+- **1 kg potatoes** – any good frying variety such as *Monalisa, Agria, or Kennebec*  
+- **1 large white onion** (or 2 medium ones) – sweet or *Babosa* types work well  
+- **6 large eggs**  
+- **Olive oil** (recommended) or sunflower oil  
+- **Salt**
 
-Cocinar las patatas
-======
-Las patatas deben **confitarse**: añade una buena cantidad de aceite en la sartén, pero deben quedar algunas patatas por encima del nivel del aceite.
+---
 
-En cuanto al aceite, yo recomiendo **aceite de oliva suave (0,4º)**. El aceite de oliva virgen extra es ideal en crudo, pero hay que evitarlo para frituras a alta temperatura, ya que puede degradarse. El de girasol también puede servir, aunque el de oliva aporta mejor sabor.
+## 🔪 Mise en Place
+<img src="/images/tortilla/patata_grosor.jpeg" alt="Potato thickness" class="img-responsive" style="float:right; margin-left:15px; width:35%;" />
 
-Primero cocina las patatas a fuego medio-bajo hasta que estén blandas. Luego sube ligeramente el fuego para que cojan algo de color, pero evita removerlas constantemente para que no se hagan puré (aunque es normal que se rompan un poco). Una vez estén listas, retíralas del fuego, escúrrelas bien para quitar el exceso de aceite y añade sal.
+Spanish omelette is a very simple dish (but not necessarily easy). Start by peeling the potatoes and slicing them thinly, about **3–5 mm** thick. Place them in cold water and rinse thoroughly to remove excess starch, repeating this process **three times**.
 
-Caramelizar la cebolla
-======
-Aunque hay quien cocina la cebolla junto a las patatas, en mi opinión queda mucho mejor si está caramelizada. Suelo prepararla mientras se cocinan las patatas.
+Dice the onion into a medium-fine [brunoise](https://en.wikipedia.org/wiki/Brunoise).
 
-Para caramelizar la cebolla, añade una cantidad generosa de aceite, la cebolla picada y una pizca de sal (esto ayuda a que suelte el agua). Comienza cocinando a fuego medio-alto, removiendo con frecuencia hasta que esté transparente. Luego baja el fuego y sigue removiendo. Un truco para evitar que se queme es añadir un poco de agua de vez en cuando.
+---
 
-A mí me gusta cocinarla durante unos 40 minutos, aproximadamente el mismo tiempo que tardan las patatas.
+## 🍳 Cooking the Potatoes
+The potatoes should be **slowly confited**: add a generous amount of oil to the pan, leaving a few slices just above the oil level.  
 
-La mezcla
-======
-Bate los 6 huevos con un tenedor, sin llegar a espumarlos. Añade las patatas calientes, la cebolla y una pizca de sal. Mezcla bien y deja reposar unos 5 minutos.
+I recommend **extra virgin olive oil** for its flavor, but sunflower oil also works.  
 
-Este reposo hace que la mezcla se compacte y se integren mejor la patata y el huevo.
+- Cook the potatoes over medium heat until they’re soft.  
+- Raise the heat to medium-high briefly to add a touch of color and texture.  
+- Avoid constant stirring to prevent them from turning into purée (it’s fine if they break a little).  
+- Remove from the pan, drain well to remove excess oil, and season with salt.
 
-**Consejo:** si te atreves, prueba la mezcla en crudo para ajustar el punto de sal. Si no quieres probarla así, puedes cocinar una pequeña cantidad en la sartén o en el microondas para comprobarlo.
+---
 
-Punto de la tortilla
-======
-Existen muchas discusiones sobre cuán cuajada debe estar una tortilla. La famosa [tortilla de Betanzos](https://upload.wikimedia.org/wikipedia/commons/3/30/Tortilla_de_Betanzos_La_Penela.jpg) es completamente líquida en su interior, mientras que en otros sitios parece cemento.
+## 🧅 Caramelizing the Onion
+<img src="/images/tortilla/cebolla_caramelizada.jpeg" alt="Caramelized onion" class="img-responsive" style="float:right; margin-left:15px; width:35%;" />
 
-Para mi gusto, lo ideal es una capa externa cocinada y un interior jugoso y poco hecho. En general no es peligroso comer huevo poco cocinado en la Unión Europea, siempre que se mantenga la cadena de frío y los huevos estén en buen estado. Aunque si no te sientes seguro puedes tomar precauciones: usar huevos frescos, refrigerados, con la cáscara limpia y sin grietas. También puedes usar huevos pasteurizados si quieres reducir aún más el riesgo, aunque personalmente nunca lo he hecho.
+Some people cook the onion along with the potatoes, but I believe it tastes much better caramelized separately. I usually do this while the potatoes are cooking.  
 
-Cocinar la tortilla
-======
-Este punto es la prueba de fuego: tanto esfuerzo puede acabar en desastre si se te pega la tortilla.
+1. Add a drizzle of oil to the pan, the chopped onion, and a pinch of salt (helps release water).  
+2. Cook over medium-high heat, stirring often until translucent.  
+3. Lower the heat and continue cooking, adding a splash of water occasionally to prevent burning.  
+4. Cook until it reaches a **deep brown color and sweet flavor**—about **40 minutes**, similar to the potatoes.
 
-No hay un método infalible para evitarlo, pero sí algunos trucos:
+---
 
-* Usa una sartén **antiadherente en buen estado**. Yo evito abusar de ellas en mi día a día, prefiriendo las de acero inoxidable, pero tengo una sartén antiadherente que uso solo para tortillas y huevos. Existen sartenes específicas para tortillas, pero no creo que sean imprescindibles.
-* **Precalienta** la sartén antes de echar la mezcla.
-* Añade una buena cantidad de aceite y **distribúyelo uniformemente**.
+## 🥚 Mixing Potatoes, Onion, and Eggs
+- Beat the **6 eggs** with a fork, avoiding too much foam.  
+- Add the **hot potatoes**, caramelized onion, and a pinch of salt.  
+- If the potato slices are intact, break them into **~2 cm pieces** with a fork.  
+- Mix well and let rest for **5 minutes** to allow the mixture to bind.
 
-Mi procedimiento habitual:
+**Tip:** Taste the raw mixture to adjust seasoning. If you prefer not to taste it raw, cook a small sample in the pan or microwave to check salt levels.
 
-1. Precalienta la sartén.
-2. Añade el aceite y baja el fuego a medio.
-3. Echa la mezcla de huevo, patata y cebolla.
-4. Cocina durante **1 minuto y medio**, moviendo ligeramente con una espátula para formar los bordes de la tortilla.
-5. Separa del fuego, coloca un plato encima y **dale la vuelta con cuidado**.
-6. Vuelve a calentar la sartén, añade un poco más de aceite y cocina por el otro lado **aproximadamente 1 minuto más**, según el punto que prefieras.
+---
 
-Fuentes
-======
-Mi madre, mi abuela y mucho contenido de internet.
+## 🔥 Choosing the Doneness
+Debate about tortilla doneness is endless. The famous [Betanzos tortilla](https://upload.wikimedia.org/wikipedia/commons/3/30/Tortilla_de_Betanzos_La_Penela.jpg) is completely runny inside, while in other places it’s almost solid.  
 
-Consejos
-======
-Uno de los errores más comunes al hacer tortilla es quedarse corto de sal. El mejor consejo que me dio mi madre: **salar en cada paso**. Añade sal a las patatas y también al huevo por separado. Y si eres valiente, prueba la mezcla antes de cocinarla.
+I prefer a **set exterior with a juicy, slightly undercooked center**. In the EU, undercooked eggs are generally safe if refrigerated and in good condition. If unsure, take [precautions](https://www.efsa.europa.eu/en/press/news/140731):  
+- Use fresh, refrigerated eggs with clean, uncracked shells  
+- Use pasteurized eggs for extra safety (I personally don’t)
+
+---
+
+## 🍽️ Cooking the Tortilla
+This is the critical step: all the effort can be ruined if it sticks to the pan.  
+
+**My process:**  
+1. Preheat a **20 cm non-stick pan**.  
+2. Add a thin layer of oil and reduce to **medium heat**. (Too much oil prevents sticking but leaves a greasy coating.)  
+3. Pour in the mixture.  
+4. Cook for **1½ minutes**, shaking the pan constantly to shape the edges. Use a spatula to help form a clean border.  
+5. Remove from heat, cover with a plate, and **flip carefully**.  
+6. Reheat the pan, add a little more oil, and cook the other side for **~1 minute**.  
+7. Flip again onto a plate—the tortilla is ready.  
+
+<div style="text-align:center;">
+  <img src="/images/tortilla/tortilla-sarten.jpeg" 
+       alt="Tortilla in pan" 
+       class="img-responsive" 
+       style="width:65%;"
+       />
+</div>
+
+---
+
+### 🧑‍🍳 Tricks to Prevent Sticking
+- Use a **good-quality non-stick pan** dedicated to tortillas and eggs. Avoid high heat, acidic foods, metal tools, and harsh cleaning.  
+- Don’t reuse the same pan used for frying potatoes unless thoroughly cleaned and dried first.  
+- [Special double pans](https://www.amazon.es/BRA-Premiere-tortilla-antiadherente-inducci%C3%B3n/dp/B084ZLV279) exist, but I find a good non-stick pan sufficient.  
+- **Preheat** the pan properly before adding the mixture.  
+- Spread the oil **evenly** over the surface.
+
+---
+
+## 📚 Sources
+My mother, my grandmother, and plenty of internet research.
+
+---
+
+## 💡 Extra Tips
+One of the most common mistakes is **under-seasoning**. The best advice my mother gave me: **season at every stage**. Add a pinch of salt to the potatoes, the onion, and the eggs. And if you’re brave, taste the mixture before cooking.
