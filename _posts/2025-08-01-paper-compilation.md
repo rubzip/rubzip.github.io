@@ -14,7 +14,9 @@ tags:
 
 Proposes a single equation aiming to unify diverse machine learning approaches: clustering, contrastive learning, supervised learning, and dimensionality reduction. The method is fundamentally based on the idea that each ML model is optimizing a loss function based on the KL divergence between two data distributions, *p* and *q*. Where *p* represents the probability density of the true data and *q* the learned model distribution.
 
-"Universal" loss function: $$\mathcal{L}(\theta, \phi) = \int_i \text{D}_\text{KL}(p_\theta(\cdot \mid i)\mid\mid q_\phi(\cdot \mid i))$$
+"Universal" loss function:
+
+$$\mathcal{L}(\theta, \phi) = \int_i \text{D}_\text{KL}(p_\theta(\cdot \mid i)\mid\mid q_\phi(\cdot \mid i))$$
 
 This framework aspires to act as a “periodic table of machine learning”, suggesting that the current gaps within this formulation may inspire new model types or architectural innovations.
 
