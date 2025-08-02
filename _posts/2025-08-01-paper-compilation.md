@@ -1,7 +1,7 @@
 ---
 title: 'Worth to read papers'
 date: 2025-08-01
-permalink: /posts/2025/08/diffusion/
+permalink: /posts/2025/08/papers/
 tags:
   - deep learning
   - papers
