@@ -30,5 +30,5 @@ This is a classic paper in generative models, introduces diffusion models (well,
 
 The paper has a strong mathematical background, I have a [blog entry with notes of diffusion models](/posts/2025/08/diffusion/).  
 
-[Example of diffusion](/images/diffusion/diffusion_subplots.png)
+![Example of diffusion](/images/diffusion/diffusion_subplots.png)
 *Example of diffusion, over 500 steps the gaussian noise image becomes to an image*
