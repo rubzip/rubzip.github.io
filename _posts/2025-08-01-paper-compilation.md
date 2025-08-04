@@ -1,7 +1,7 @@
 ---
 title: 'Worth to read papers'
 date: 2025-08-01
-permalink: /posts/2025/08/diffusion/
+permalink: /posts/2025/08/papers/
 tags:
   - deep learning
   - papers
@@ -24,3 +24,11 @@ This framework aspires to act as a “periodic table of machine learning”, sug
 
 
 
+# ([2006.11239](https://arxiv.org/abs/2006.11239)) Denoising Diffusion Probabilistic Models
+
+This is a classic paper in generative models, introduces diffusion models (well, there was [a previous paper in 2015, 1503.03585](https://arxiv.org/abs/1503.03585)). Diffusion models are trained for removing Gaussian noise, the main idea is a model that gradually transforms a Gaussian noise image into an actual image.  
+
+The paper has a strong mathematical background, I have a [blog entry with notes of diffusion models](/posts/2025/08/diffusion/).  
+
+![Example of diffusion](/images/diffusion/diffusion_subplots.png)
+*Example of diffusion, over 500 steps the gaussian noise image becomes to an image*
