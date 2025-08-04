@@ -24,7 +24,7 @@ This framework aspires to act as a “periodic table of machine learning”, sug
 
 
 
-# ([2006.11239](https://arxiv.org/abs/2006.11239)) Denoising Diffusion Probabilistic Models
+# [(2006.11239)](https://arxiv.org/abs/2006.11239) Denoising Diffusion Probabilistic Models
 
 This is a classic paper in generative models, introduces diffusion models (well, there was [a previous paper in 2015, 1503.03585](https://arxiv.org/abs/1503.03585)). Diffusion models are trained for removing Gaussian noise, the main idea is a model that gradually transforms a Gaussian noise image into an actual image.  
 
