@@ -10,7 +10,7 @@ tags:
 ---
 *Compilation of some papers that I enjoyed reading.*
 
-# ([2504.16929](https://arxiv.org/abs/2504.16929)) I‑Con: A Unifying Framework for Representation Learning 
+# [(2504.16929)](https://arxiv.org/abs/2504.16929) I‑Con: A Unifying Framework for Representation Learning 
 
 Proposes a single equation aiming to unify diverse machine learning approaches: clustering, contrastive learning, supervised learning, and dimensionality reduction. The method is fundamentally based on the idea that each ML model is optimizing a loss function based on the KL divergence between two data distributions, *p* and *q*. Where *p* represents the probability density of the true data and *q* the learned model distribution.
 
