@@ -1,6 +1,6 @@
 ---
 title: '✍️ Worth to read papers'
-date: 2025-08-01
+date: 2025-07-15
 permalink: /posts/2025/08/papers/
 tags:
   - deep learning
