@@ -1,5 +1,5 @@
 ---
-title: 'The perfect tortilla de patatas'
+title: '🥔 The perfect tortilla de patatas'
 date: 2025-08-01
 permalink: /posts/2025/08/en-tortilla-patatas/
 tags:

@@ -1,5 +1,5 @@
 ---
-title: 'Diffusion Models Notes'
+title: '🌀 Diffusion Models Notes'
 date: 2025-08-01
 permalink: /posts/2025/08/diffusion/
 tags:
@@ -9,7 +9,7 @@ tags:
 ---
 *These are some notes I took while studying diffusion models.*
 
-# Diffusion models for denoising
+# 🌀 Diffusion models for denoising
 
 The ideal for generating images would be to define a probabilistic distribution containing all image content, and after that generate the image through a random process based on weighted probability as LLM does. But this is a huge task, and at the moment it is not possible.
 
