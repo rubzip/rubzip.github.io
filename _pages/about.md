@@ -14,7 +14,7 @@ I’m Rubén, a predoctoral researcher at the Universidade de Santiago de Compos
 ---
 My research interests include efficient neural architectures, diffusion models, and the application of machine learning to physical domains such as audio processing, hyperspectral imaging, and time series analysis.
 
-I have a [post](/posts/2025/08/papers/) which consists on a recompilation of papers that I enjoyed reading.
+I have a [post](/posts/2025/08/papers/) which consists on a compilation of papers that I enjoyed reading.
 
 ### Current Work
 ---
