@@ -7,7 +7,7 @@ tags:
   - diffusion models
   - generative models
 ---
-*These are some notes I took while studying diffusion models.*
+*These are some notes I took while studying diffusion models.* I already implemented thos paper on [PyTorch](https://github.com/rubzip/Diffusion-models).
 
 ## Introduction
 The ideal for generating images would be to define a probabilistic distribution containing all image content, and after that generate the image through a random process based on weighted probability as LLM does. But this is a huge task, and at the moment it is not possible.
