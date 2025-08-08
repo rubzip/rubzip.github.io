@@ -1,6 +1,6 @@
 ---
 title: "Diffusion Models Implementation"
-excerpt: "Implementation of the Denoising Diffusion Models paper on CIFAR-10, using a pretrained U-Net and sinusoidal time embeddings. \<a href="[https://github.com/yourusername/Diffusion-models\\](https://github.com/yourusername/Diffusion-models\)" target="\_blank">Code</a>"
+excerpt: 'Implementation of the Denoising Diffusion Models paper on CIFAR-10, using a pretrained U-Net and sinusoidal time embeddings. <a href="https://github.com/rubzip/Diffusion-models" target="_blank">Code</a>'
 collection: portfolio
 ---
 
