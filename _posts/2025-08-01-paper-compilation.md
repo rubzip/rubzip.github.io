@@ -16,7 +16,9 @@ Proposes a single equation aiming to unify diverse machine learning approaches: 
 
 "Universal" loss function:
 
-$$\mathcal{L}(\theta, \phi) = \int_i \text{D}_\text{KL}(p_\theta(\cdot \mid i)\mid\mid q_\phi(\cdot \mid i))$$
+$$\mathcal{L}(\theta, \phi)
+= \int_{i, j \in \mathcal{X}} p_\theta(j \mid i) \log \frac{p_\theta(j \mid i)}{q_\phi(j \mid i)}
+$$
 
 This framework aspires to act as a “periodic table of machine learning”, suggesting that the current gaps within this formulation may inspire new model types or architectural innovations.
 
