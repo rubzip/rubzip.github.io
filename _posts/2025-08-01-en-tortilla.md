@@ -37,6 +37,8 @@ Dice the onion into a medium-fine [brunoise](https://en.wikipedia.org/wiki/Bruno
 ---
 
 ## 🍳 Cooking the Potatoes
+<img src="/images/tortilla/aceite.jpg" alt="Mise en place" class="img-responsive" style="float:right; margin-left:15px; width:50%;" />
+
 The potatoes should be **slowly confited**: add a generous amount of oil to the pan, leaving a few slices just above the oil level.  
 
 I recommend **extra virgin olive oil** for its flavor, but sunflower oil also works.  
@@ -82,6 +84,14 @@ I prefer a **set exterior with a juicy, slightly undercooked center**. In the EU
 ## 🍽️ Cooking the Tortilla
 This is the critical step: all the effort can be ruined if it sticks to the pan.  
 
+<div style="text-align:center;">
+  <img src="/images/tortilla/tortilla-sarten.jpeg" 
+       alt="Tortilla in pan" 
+       class="img-responsive" 
+       style="width:65%;"
+       />
+</div>
+
 **My process:**  
 1. Preheat a **20 cm non-stick pan**.  
 2. Add a thin layer of oil and reduce to **medium heat**. (Too much oil prevents sticking but leaves a greasy coating.)  
@@ -91,9 +101,11 @@ This is the critical step: all the effort can be ruined if it sticks to the pan.
 6. Reheat the pan, add a little more oil, and cook the other side for **~1 minute**.  
 7. Flip again onto a plate—the tortilla is ready.  
 
+
+
 <div style="text-align:center;">
-  <img src="/images/tortilla/tortilla-sarten.jpeg" 
-       alt="Tortilla in pan" 
+  <img src="/images/tortilla/tortilla.jpg" 
+       alt="Tortilla en sarten" 
        class="img-responsive" 
        style="width:65%;"
        />
