@@ -111,7 +111,7 @@ In this way, attention will be represented as a $$T \times T$$ matrix containing
 
 This is illustrated in the following image, every word in sentence is related with the rest of words:
 
-![image.png](image.png)
+![transformers/attention_example.png](/images/transformers/attention_example.png)
 
 ## **Scaled Dot-Product Attention**
 
@@ -256,7 +256,8 @@ Each dimension of the positional encoding corresponds to a sinusoid.
 
 All values of $$pos$$ between 0 and 10000⋅2π produce positional encodings that are practically linearly independent. For larger positions, the sinusoidal patterns may start to repeat due to their periodic nature, potentially reducing the model’s ability to distinguish positions uniquely.
 
-![image.png](image%201.png)
+![Positional Encoding](/images/transformers/positional_encoding.png)
+
 
 # Transformer Encoder
 
