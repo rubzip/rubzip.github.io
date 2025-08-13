@@ -107,7 +107,7 @@ First of all we are going to introduce all different layers used in transformers
 
 Word embeddings [[1301.3781]](https://arxiv.org/abs/1301.3781) provided a significant improvement to language models by allowing the semantic content of a word to be represented in a linear space. The problem with word embeddings comes from the lack of context of words within the sentence in which they appear. The same word can have different meanings depending on the context of the word [(polysemy)](https://en.wikipedia.org/wiki/Polysemy), but the representation of that word in word embeddings will always be the same regardless of context. This is why the Transformers paper introduces **attention**, which consists of a layer designed to capture the context of a word.
 
-In this way, attention will be represented as a $T \times T$ matrix containing the relationship of each word with the rest of the text, and the contextual embedding is an embedding that not only takes into account the word embeddings but also includes information from the other words through attention.
+In this way, attention will be represented as a $$T \times T$$ matrix containing the relationship of each word with the rest of the text, and the contextual embedding is an embedding that not only takes into account the word embeddings but also includes information from the other words through attention.
 
 This is illustrated in the following image, every word in sentence is related with the rest of words:
 
@@ -119,7 +119,7 @@ The **Scaled Dot-Product Attention** computes a weighted sum of value vectors, w
 
 To obtain attention, the **query (Q)** is the question a token asks the rest of the text: *“What information do I need, and from whom?”*. The **key (K)** describes the type of *information a token holds and can offer to others*. The **value (V)** contains the actual information that will be shared if the key of a token matches the query of another. In other words, while the query-key interaction determines **which tokens are relevant to each other (attention)**, the value is the **payload** of that interaction, the contextual content that will be passed along and integrated into the representation of the querying token.
 
-Given the input $X \in \mathbb{R}^{B \times T \times d_{model}}$, we project it into the **query**, **key**, and **value** spaces:
+Given the input $$X \in \mathbb{R}^{B \times T \times d_{model}}$$, we project it into the **query**, **key**, and **value** spaces:
 
 $$
 Q = X \cdot W_Q^\top + b_Q, \quad W_Q \in \mathbb{R}^{d_k \times d_{model}}, \quad b_Q \in \mathbb{R}^{d_k}
@@ -151,11 +151,11 @@ $$
 
 **Notation:**
 
-- $B$ batch size
-- $T$ sequence length
-- $d_{model}$ embedding length
-- $d_k$ query dimension
-- $d_v$ value dimension
+- $$B$$ batch size
+- $$T$$ sequence length
+- $$d_{model}$$ embedding length
+- $$d_k$$ query dimension
+- $$d_v$$ value dimension
 
 ```python
 class AttentionLayer(nn.Module):
@@ -175,7 +175,7 @@ class AttentionLayer(nn.Module):
 
 ## **Multi-Head Attention**
 
-The Transformer paper introduced **multi-head attention**: instead of computing a single attention, we compute attention across $h$ heads, concatenate the results, and apply a linear projection:
+The Transformer paper introduced **multi-head attention**: instead of computing a single attention, we compute attention across $$h$$ heads, concatenate the results, and apply a linear projection:
 
 $$
 \text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \ldots, \text{head}_h) W^O
@@ -185,7 +185,7 @@ $$
 \text{where} \quad\text{head}_i = \text{Attention}(Q W_Q^{(i)},\ K W_K^{(i)},\ V W_V^{(i)})
 $$
 
-Where  $W_i^Q,\space W_i^K \in \mathbb{R}^{d_{model} \times dk},\quad W_i^V \in \mathbb{R}^{d_{model} \times d_v},\quad W^O \in \mathbb{R}^{hd_v \times d_{model}}$.
+Where  $$W_i^Q,\space W_i^K \in \mathbb{R}^{d_{model} \times dk},\quad W_i^V \in \mathbb{R}^{d_{model} \times d_v},\quad W^O \in \mathbb{R}^{hd_v \times d_{model}}$$.
 
 ```python
 class MultiHeadAttention(nn.Module):
@@ -254,7 +254,7 @@ $$
 
 Each dimension of the positional encoding corresponds to a sinusoid. 
 
-All values of $pos$ between 0 and 10000⋅2π produce positional encodings that are practically linearly independent. For larger positions, the sinusoidal patterns may start to repeat due to their periodic nature, potentially reducing the model’s ability to distinguish positions uniquely.
+All values of $$pos$$ between 0 and 10000⋅2π produce positional encodings that are practically linearly independent. For larger positions, the sinusoidal patterns may start to repeat due to their periodic nature, potentially reducing the model’s ability to distinguish positions uniquely.
 
 ![image.png](image%201.png)
 
