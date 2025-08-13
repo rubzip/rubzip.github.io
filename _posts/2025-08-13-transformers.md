@@ -9,7 +9,7 @@ tags:
   - generative models
 ---
 
-
+*These are some notes I took while studying transformer models.* I already implemented this paper on [PyTorch](https://github.com/rubzip/Transformers-Implementation).
 
 # Word Embeddings
 
