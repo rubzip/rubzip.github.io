@@ -186,11 +186,11 @@ A = \text{softmax} \left(\frac{Q \cdot K^\top}{\sqrt{d_k}} + M \right) \in \math
 $$
 
 $$
-M \in \mathbb{R}^{T \times T}; \quad M_{ij} =
+M_{ij} =
 \begin{cases}
 0 & \text{if } i \geq j \\
 -\infty & \text{if } i < j
-\end{cases}
+\end{cases}; \quad M \in \mathbb{R}^{T \times T}
 $$
 
 Since we apply softmax, the upper triangle of the attention matrix (all future values for a token) has a value of 0.
