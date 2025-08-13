@@ -172,6 +172,48 @@ class AttentionLayer(nn.Module):
         context = attention @ value
         return context
 ```
+## **Attention Masking**
+
+To train an encoder, it is beneficial for the attention modules to have context of the entire sentence so they can learn the relationships that words should have.
+
+In contrast, when dealing with decoders, it is better not to have context of future words, as that would be “cheating.” To prevent this, **attention masking** is used, which ensures that, for example, the third word only considers the first three words and ignores the subsequent ones. 
+
+Mathematically, it is defined as:
+
+$$
+A = \text{softmax} \left(\frac{Q \cdot K^\top}{\sqrt{d_k}} + M \right) \in \mathbb{R}^{B \times T \times T}
+
+$$
+
+$$
+M \in \mathbb{R}^{T \times T}; \quad M_{ij} =
+\begin{cases}
+0 & \text{if } i \geq j \\
+-\infty & \text{if } i < j
+\end{cases}
+$$
+
+Since we apply softmax, the upper triangle of the attention matrix (all future values for a token) has a value of 0.
+
+```python
+class AttentionLayer(nn.Module):
+    """Scaled Dot-Product Attention masked"""
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        query = self.w_q(x)
+        key = self.w_k(x)
+        value = self.w_v(x)
+
+        attention = (query @ key.transpose(-2, -1)) / self.d_k_sqrt
+        if self.masking:
+            seq_len = attention.size(-1)
+            mask = torch.triu(torch.ones(seq_len, seq_len, device=attention.device), diagonal=1)
+            attention = attention.masked_fill(mask.bool(), float('-inf'))
+
+        score = self.softmax(attention)
+        context = score @ value
+        return context
+```
 
 ## **Multi-Head Attention**
 
