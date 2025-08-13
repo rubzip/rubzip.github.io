@@ -1,3 +1,13 @@
+---
+title: '🌀 Diffusion Models Notes'
+date: 2025-06-13
+permalink: /posts/2025/08/diffusion/
+tags:
+  - deep learning
+  - transformers
+  - LLM
+  - generative models
+---
 # Transformers: Attention Is All You Need
 
 # Word Embeddings
