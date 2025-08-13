@@ -9,6 +9,8 @@ tags:
   - generative models
 ---
 
+
+
 # Word Embeddings
 
 **Word embeddings** are vector representations of words in a continuous, semantic space. Introduced with **Word2Vec (Mikolov, 2013)** [[1301.3781]](https://arxiv.org/abs/1301.3781), these embeddings encode the meaning of words as vectors, allowing relationships between words to be captured mathematically.
