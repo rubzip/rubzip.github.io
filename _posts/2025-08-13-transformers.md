@@ -111,9 +111,7 @@ Word embeddings [[1301.3781]](https://arxiv.org/abs/1301.3781) provided a signif
 
 One of the main issues with word embeddings is that they do not take into account for the context of words within a sentence. The same word can have different meanings depending on its context [(polysemy)](https://en.wikipedia.org/wiki/Polysemy), its representation in word embeddings remains the same regardless of where it appears. Additionally, if a word is unknown to the word embedding model or is misspelled, its representation becomes inefficient or useless.
 
-This is why the Transformers paper introduces **attention**, which consists of a new embedding layer designed to capture the context of a word.
-
-In this way, attention will be represented as a $$T \times T$$ matrix containing the relationship of each word with the rest of the text, and the contextual embedding is an embedding that not only takes into account the word embeddings but also includes information from the other words through attention.
+This is why the Transformers paper introduces **attention**, which consists of a new embedding layer designed to capture the context of a word. In this way, attention will be represented as a $$T \times T$$ matrix containing the relationship of each word with the rest of the text, and the contextual embedding is an embedding that not only takes into account the word embeddings but also includes information from the other words through attention. Represented as a $$T \times d_v$$ matrix.
 
 This is illustrated in the following image, every word in sentence is related with the rest of words:
 
