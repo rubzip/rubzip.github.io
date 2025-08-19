@@ -29,7 +29,7 @@ Word embeddings revolutionized **transfer learning** in NLP, improving feature e
 
 *For a complete, working implementation of these models, feel free to explore the [repository](https://github.com/rubzip/Transformers-Implementation/tree/main/src/sequential).*
 
-Before diving into the Transformer architecture, it’s important to understand traditional sequential models that have been widely used for sequence processing: Recurrent Neural Networks (RNN), Long Short-Term Memory units (LSTM), and Gated Recurrent Units (GRU).
+Before diving into the Transformer architecture, it’s important to understand traditional sequential models that have been widely used for sequence processing: **Recurrent Neural Networks** (RNN), **Long Short-Term Memory** (LSTM), and **Gated Recurrent Units** (GRU).
 
 These models process input sequences step-by-step, maintaining a hidden state that captures previous information to influence how new inputs are interpreted.
 
@@ -103,6 +103,8 @@ class GRUBlock(SequentialBlock):
 
 First of all we are going to introduce all different layers used in transformers paper.
 
+![Transformer Architecture.](/images/transformers/attention_is_all_you_need.png)
+
 ## Attention
 
 Word embeddings [[1301.3781]](https://arxiv.org/abs/1301.3781) provided a significant improvement to language models by allowing the semantic content of a word to be represented in a linear space. The problem with word embeddings comes from the lack of context of words within the sentence in which they appear. The same word can have different meanings depending on the context of the word [(polysemy)](https://en.wikipedia.org/wiki/Polysemy), but the representation of that word in word embeddings will always be the same regardless of context. This is why the Transformers paper introduces **attention**, which consists of a layer designed to capture the context of a word.
@@ -172,7 +174,7 @@ class AttentionLayer(nn.Module):
         context = attention @ value
         return context
 ```
-## **Attention Masking**
+## Attention Masking
 
 To train an encoder, it is beneficial for the attention modules to have context of the entire sentence so they can learn the relationships that words should have.
 
@@ -182,7 +184,6 @@ Mathematically, it is defined as:
 
 $$
 A = \text{softmax} \left(\frac{Q \cdot K^\top}{\sqrt{d_k}} + M \right) \in \mathbb{R}^{B \times T \times T}
-
 $$
 
 $$
@@ -190,7 +191,7 @@ M_{ij} =
 \begin{cases}
 0 & \text{if } i \geq j \\
 -\infty & \text{if } i < j
-\end{cases}; \quad M \in \mathbb{R}^{T \times T}
+\end{cases} \quad M \in \mathbb{R}^{T \times T}
 $$
 
 Since we apply softmax, the upper triangle of the attention matrix (all future values for a token) has a value of 0.
