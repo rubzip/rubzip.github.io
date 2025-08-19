@@ -230,7 +230,7 @@ $$
 \text{where} \quad\text{head}_i = \text{Attention}(Q W_Q^{(i)},\ K W_K^{(i)},\ V W_V^{(i)})
 $$
 
-Where  $$W_i^Q,\space W_i^K \in \mathbb{R}^{d_{model} \times dk},\quad W_i^V \in \mathbb{R}^{d_{model} \times d_v},\quad W^O \in \mathbb{R}^{hd_v \times d_{model}}$$.
+Where  $$W_i^Q,\space W_i^K \in \mathbb{R}^{d_{model} \times dk};\quad W_i^V \in \mathbb{R}^{d_{model} \times d_v};\quad W^O \in \mathbb{R}^{hd_v \times d_{model}}$$.
 
 ```python
 class MultiHeadAttention(nn.Module):
