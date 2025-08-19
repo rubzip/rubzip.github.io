@@ -107,7 +107,11 @@ First of all we are going to introduce all different layers used in transformers
 
 ## Attention
 
-Word embeddings [[1301.3781]](https://arxiv.org/abs/1301.3781) provided a significant improvement to language models by allowing the semantic content of a word to be represented in a linear space. The problem with word embeddings comes from the lack of context of words within the sentence in which they appear. The same word can have different meanings depending on the context of the word [(polysemy)](https://en.wikipedia.org/wiki/Polysemy), but the representation of that word in word embeddings will always be the same regardless of context. This is why the Transformers paper introduces **attention**, which consists of a layer designed to capture the context of a word.
+Word embeddings [[1301.3781]](https://arxiv.org/abs/1301.3781) provided a significant improvement to language models by allowing the semantic content of a word to be represented in a linear space. 
+
+One of the main issues with word embeddings is that they do not take into account for the context of words within a sentence. The same word can have different meanings depending on its context [(polysemy)](https://en.wikipedia.org/wiki/Polysemy), its representation in word embeddings remains the same regardless of where it appears. Additionally, if a word is unknown to the word embedding model or is misspelled, its representation becomes inefficient or useless.
+
+This is why the Transformers paper introduces **attention**, which consists of a new embedding layer designed to capture the context of a word.
 
 In this way, attention will be represented as a $$T \times T$$ matrix containing the relationship of each word with the rest of the text, and the contextual embedding is an embedding that not only takes into account the word embeddings but also includes information from the other words through attention.
 
