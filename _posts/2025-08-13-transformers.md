@@ -236,10 +236,10 @@ Where  $$W_i^Q,\space W_i^K \in \mathbb{R}^{d_{model} \times dk};\quad W_i^V \in
 class MultiHeadAttention(nn.Module):
     """MultiHead Attention"""
 
-        w_heads = nn.ModuleList([
-            AttentionLayer(d_model, self.d_k, self.d_v)
-            for _ in range(h)
-        ])
+    w_heads = nn.ModuleList([
+        AttentionLayer(d_model, self.d_k, self.d_v)
+        for _ in range(h)
+    ])
     
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         heads = [head(x) for head in self.w_heads]
