@@ -44,7 +44,7 @@ Skills
 ======
 * **Programming:** Python (4 yrs), SQL (4 yrs), C++ (2 yrs), ReactJS, Git  
 * **Languages:** Spanish (Native), English (Professional C1), French (Beginner) 
-* **Frameworks & Tools:** PyTorch, Azure Data Factory, Snowflake, dbt  
+* **Frameworks:** PyTorch, TensorFlow, GPU acceleration, Numpy, pandas  
 
 Publications
 ======
