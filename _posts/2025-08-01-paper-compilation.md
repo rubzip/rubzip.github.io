@@ -34,3 +34,7 @@ The paper has a strong mathematical background, I have a [blog entry with notes 
 
 ![Example of diffusion](/images/diffusion/diffusion_subplots.png)
 *Example of diffusion, over 500 steps the gaussian noise image becomes to an image*
+
+# [[2303.09861]](https://arxiv.org/abs/2303.09861) SpiRobs: Logarithmic spiral-shaped robots for versatile grasping across scales
+
+This paper brings a new alternative to classical robotic arms, robotic tentacles based on logarithm spirals.
