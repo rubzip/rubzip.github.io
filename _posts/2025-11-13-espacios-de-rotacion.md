@@ -117,7 +117,7 @@ y \\
 \end{pmatrix}
 $$
 
-Esta transformación invierte la dimensión $$z$$, cambiando la orientación del sistema de coordenadas.
+Esta transformación invierte la dimensión $$z$$, cambiando la orientación del sistema de coordenadas. Por esto no pueden ser usadas en robótica.
 
 ---
 
