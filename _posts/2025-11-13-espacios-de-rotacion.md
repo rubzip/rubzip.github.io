@@ -219,7 +219,7 @@ Como queda demostrado el subconjunto de rotaciones en $$\mathbb{R}^3$$ cuenta co
 ### Convención Z-Y-Z
 La selección de los ejes de rotación es completamente arbitraria, una de las más utilizadas es la conocida como Z-Y-Z que consiste en:
 $$
-R = R_z(\phi) , R_y(\theta) , R_z(\psi)
+R = R_z(\phi) \cdot R_y(\theta) \cdot R_z(\psi)
 $$
 
 donde:
