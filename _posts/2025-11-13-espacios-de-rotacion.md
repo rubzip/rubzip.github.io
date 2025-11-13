@@ -210,19 +210,6 @@ $$
 1. Ángulo de rotación $$\theta$$ (1 grado de libertad)
 2. El vector normal que define el eje de rotación (2 grados de libertad)
 
-**Ejemplo:**
-Para un ángulo $\theta$ cualquiera pueden definirse los 6 operadores:
-$$
-D_1 = \begin{bmatrix} e^{i\theta} & 0 & 0 \\ 0 & e^{-i\theta} & 0 \\ 0 & 0 & 1 \end{bmatrix},
-D_2 = \begin{bmatrix} e^{i\theta} & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & e^{-i\theta} \end{bmatrix},
-D_3 = \begin{bmatrix} e^{-i\theta} & 0 & 0 \\ 0 & e^{i\theta} & 0 \\ 0 & 0 & 1 \end{bmatrix}
-$$
-$$
-D_4 = \begin{bmatrix} e^{-i\theta} & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & e^{i\theta} \end{bmatrix}, 
-D_5 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & e^{i\theta} & 0 \\ 0 & 0 & e^{-i\theta} \end{bmatrix}, 
-D_6 = \begin{bmatrix} 1 & 0 & 0 \\ 0 & e^{-i\theta} & 0 \\ 0 & 0 & e^{i\theta} \end{bmatrix}.
-$$
-
 
 ---
 
