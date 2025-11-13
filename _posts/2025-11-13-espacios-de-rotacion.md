@@ -69,17 +69,21 @@ $$
 $$
 \widehat{u v} = \widehat{u' v'} \forall u, v \in \mathbb{R}^3
 $$
+
 $$
 u' = R u
 $$
+
 $$
 v' = R v
 $$
+
 **Demostración:**
 
 $$
 \cos \theta' = \frac{u'v'}{\left\| u'\right\|\left\| v'\right\|} = \frac{RR^Tuv}{\left\| Ru\right\|\left\| Rv\right\|} = \frac{uv}{\left\| u\right\|\left\| v\right\|} = \cos \theta
 $$
+
 ---
 
 ## 0.2 Subconjuntos de O(3)
