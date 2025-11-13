@@ -90,8 +90,8 @@ $$
 
 El conjunto $$O(3)$$ puede dividirse en dos subconjuntos según el valor del determinante de sus transformaciones:
 
-1. **Transformaciones con $\det(R) = 1$**
-2. **Transformaciones con $\det(R) = -1$**
+1. **Transformaciones con $$\det(R) = 1$$**
+2. **Transformaciones con $$\det(R) = -1$$**
 
 ---
 
