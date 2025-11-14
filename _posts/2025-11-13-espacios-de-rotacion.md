@@ -43,7 +43,7 @@ $$
 $$
 \det(R) = \pm 1
 $$
-El determinante no puede ser un numero complejo ya que R está definido sobre $\mathbb{R}^{3\times3}$.
+El determinante no puede ser un numero complejo ya que R está definido sobre $$\mathbb{R}^{3\times3}$$.
 
 ---
 
@@ -224,9 +224,9 @@ $$
 
 donde:
 
-* $$R_z(\phi)$$: rotación alrededor del eje $$z$$ de ángulo $\phi$
-* $$R_y(\theta)$$: rotación alrededor del eje $$y$$ de ángulo $\theta$
-* $$R_z(\psi)$$: rotación alrededor del eje $$z$$ de ángulo $\psi$
+* $$R_z(\phi)$$: rotación alrededor del eje $$z$$ de ángulo $$\phi$$
+* $$R_y(\theta)$$: rotación alrededor del eje $$y$$ de ángulo $$\theta$$
+* $$R_z(\psi)$$: rotación alrededor del eje $$z$$ de ángulo $$\psi$$
 
 ---
 
@@ -238,8 +238,8 @@ donde:
 4. 
 ## 0.5 Problema de los Ángulos de Euler: *Gimbal Lock*
 
-Los ángulos de Euler son una herramienta muy útil para describir rotaciones en \(\mathbb{R}^3\).  
-Permiten parametrizar cualquier matriz \(R \in SO(3)\) mediante tres ángulos.  
+Los ángulos de Euler son una herramienta muy útil para describir rotaciones en $$\mathbb{R}^3$$.  
+Permiten parametrizar cualquier matriz $$R \in SO(3)$$ mediante tres ángulos.  
 Sin embargo, **no son una representación perfecta** y presentan limitaciones importantes.  
 
 La más conocida es el fenómeno llamado **gimbal lock**.
@@ -266,7 +266,7 @@ $$
 
 ### Demostración mediante el Jacobiano
 
-Sea \(R(\phi, \theta, \psi)\) la matriz de rotación en ángulos de Euler.  
+Sea $$R(\phi, \theta, \psi)$$ la matriz de rotación en ángulos de Euler.  
 El Jacobiano respecto a los tres parámetros está dado por:
 
 $$
@@ -300,10 +300,10 @@ En ese punto, el sistema pasa de tener 3 grados de libertad a tener solo 2.
 
 ### Intuición geométrica
 
-Cuando \(\theta = \pm \frac{\pi}{2}\), las rotaciones alrededor de los ejes externos e internos (por ejemplo, \(\phi\) y \(\psi\)) se alinean y producen rotaciones equivalentes.  
+Cuando $$\theta = \pm \frac{\pi}{2}$$, las rotaciones alrededor de los ejes externos e internos (por ejemplo, $$\phi$$ y $$\psi$$) se alinean y producen rotaciones equivalentes.  
 En otras palabras:
 
-- Girar con \(\phi\) produce exactamente la misma rotación que girar con \(\psi\).  
+- Girar con $$\phi$$ produce exactamente la misma rotación que girar con $$\psi$$.  
 - El sistema pierde un eje independiente.
 
 El mecanismo físico equivalente son **tres anillos cardán (gimbals)**, donde dos de ellos quedan alineados, anulando uno de los grados de libertad.
@@ -338,7 +338,7 @@ El Gimbal lock también afecta en robótica y es conocido como *wrist flip* o *r
 ### Conclusión
 
 - Los ángulos de Euler permiten describir cualquier rotación en 3D.  
-- Pero en ciertas configuraciones (cuando \(\cos\theta = 0\)), se pierde un grado de libertad: *gimbal lock*.  
+- Pero en ciertas configuraciones (cuando $$\cos\theta = 0$$), se pierde un grado de libertad: *gimbal lock*.  
 - El problema tuvo consecuencias reales en sistemas de navegación como el del Apolo 11.  
 - Una solución común en robótica moderna es emplear **cuaterniones**, libres de este problema.
 
