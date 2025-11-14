@@ -329,6 +329,10 @@ Si el sistema hubiera entrado en *gimbal lock* durante el descenso, habría sido
 
 After the Lunar Module had landed, Mike Collins aboard the Command Module joked "How about sending me a fourth gimbal for Christmas?"
 
+### En robótica
+El Gimbal lock también afecta en robótica y es conocido como *wrist flip* o *robot sigularities* que son problemas relacionados con este tipo de direcciones en las que los brazos robóticos no pierden predicibilidad.
+
+
 ---
 
 ### Conclusión
