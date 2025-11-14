@@ -239,7 +239,7 @@ donde:
 1. **Representación completa:** cualquier $$R \in SO(3)$$ puede escribirse como combinación de tres rotaciones elementales.
 2. **Grados de libertad:** los tres ángulos de Euler $$(\phi, \theta, \psi)$$ representan los **tres grados de libertad** de $$SO(3)$$.
 3. **Composición de rotaciones:** multiplicar matrices corresponde a aplicar secuencialmente las rotaciones.
-4. 
+
 ## 0.5 Problema de los Ángulos de Euler: *Gimbal Lock*
 
 Los ángulos de Euler son una herramienta muy útil para describir rotaciones en $$\mathbb{R}^3$$.  
@@ -254,7 +254,25 @@ La más conocida es el fenómeno llamado **gimbal lock**.
 
 El *gimbal lock* ocurre cuando, debido a la combinación de dos de las rotaciones, **dos planos de rotación se vuelven paralelos**, haciendo que se pierda uno de los tres grados de libertad.
 
-En el caso de la parametrización de Euler **Z–Y–Z** o **Z–Y–X**, este problema aparece cuando:
+Sea la rotación: 
+
+$$
+R(\alpha, \beta, \gamma) = \begin{pmatrix}
+1 & 0 & 0 \\
+0 & \cos\alpha & -\sin\alpha \\
+0 & \sin\alpha & \cos\alpha \\
+\end{pmatrix} \begin{pmatrix}
+\cos\beta & 0 & \sin\beta \\
+0 & 1 & 0 \\
+-\sin\beta & 0 &\cos\beta \\
+\end{pmatrix}
+\begin{pmatrix}
+\cos\gamma & -\sin\gamma & 0 \\
+\sin\gamma & \cos\gamma & 0 \\
+0 & 0 & 1 \\
+\end{pmatrix} 
+$$
+
 
 $$
 \cos\theta = 0
