@@ -20,9 +20,7 @@ donde $$I$$ es la matriz identidad $$3\times3$$.
 
 ---
 
-### Propiedades
-
-**Propiedad 1: Determinante**
+### Propiedad 1: Determinante**
 
 $$
 \det(R) = \pm 1 \quad
@@ -30,7 +28,7 @@ $$
 $$
 
 
-**Demostración:**
+### **Demostración:**
 
 $$
 \det(R R^T) = \det(I) = 1
@@ -83,7 +81,7 @@ $$
 **Demostración:**
 
 $$
-\cos \theta' = \frac{u'v'}{\left\| u'\right\|\left\| v'\right\|} = \frac{RR^Tuv}{\left\| Ru\right\|\left\| Rv\right\|} = \frac{uv}{\left\| u\right\|\left\| v\right\|} = \cos \theta
+\cos \theta' = \frac{u'v'}{\left\| u'\right\|\left\| v'\right\|} = \frac{uR^TRv}{\left\| Ru\right\|\left\| Rv\right\|} = \frac{uv}{\left\| u\right\|\left\| v\right\|} = \cos \theta
 $$
 
 ---
