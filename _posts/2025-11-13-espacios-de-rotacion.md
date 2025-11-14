@@ -43,6 +43,7 @@ $$
 $$
 \det(R) = \pm 1
 $$
+
 El determinante no puede ser un numero complejo ya que R está definido sobre $$\mathbb{R}^{3\times3}$$.
 
 ---
@@ -66,6 +67,7 @@ $$
 ---
 
 **Propiedad 3: Conservación del ángulo**
+
 $$
 \widehat{u v} = \widehat{u' v'} \quad \forall u, v \in \mathbb{R}^3
 $$
@@ -195,6 +197,7 @@ $$
 $$
 
 **Conclusión:**
+
 Toda matriz de $$SO(3)$$ tiene **un autovalor igual a 1**, y los otros dos forman un par de conjugados $$e^{\pm i \theta}$$, representando rotación alrededor de un eje.
 
 ---
