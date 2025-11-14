@@ -182,7 +182,7 @@ $$
 (R u)^* = (\lambda u)^* \implies R (u^*) = \lambda^* u^*
 $$
 
-Si un autovalor es complejo, su conjugado también lo es. Además:
+Si un autovalor es complejo, su conjugado también es autovalor de dicho operador:
 
 $$
 |\lambda| = 1 \implies \lambda_1 = e^{i\theta}, \quad \lambda_2 = e^{-i\theta}
@@ -304,7 +304,12 @@ En ese punto, el sistema pasa de tener 3 grados de libertad a tener solo 2.
 
 ### Intuición geométrica
 
-Cuando $$\theta = \pm \frac{\pi}{2}$$, las rotaciones alrededor de los ejes externos e internos (por ejemplo, $$\phi$$ y $$\psi$$) se alinean y producen rotaciones equivalentes.  
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding-right: 20px;">
+
+Cuando $$\theta = \pm \frac{\pi}{2}$$, las rotaciones alrededor de los ejes externos e internos (por ejemplo, $$\phi$$ y $$\psi$$) se alinean y producen rotaciones equivalentes.
+
 En otras palabras:
 
 - Girar con $$\phi$$ produce exactamente la misma rotación que girar con $$\psi$$.  
@@ -312,7 +317,16 @@ En otras palabras:
 
 El mecanismo físico equivalente son **tres anillos cardán (gimbals)**, donde dos de ellos quedan alineados, anulando uno de los grados de libertad.
 
-![Gimball](https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif)
+    </td>
+
+    <td style="vertical-align: top; width: 50%; text-align: center;">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif" alt="Gimbal" style="max-width: 100%;">
+
+    </td>
+  </tr>
+</table>
+
 
 ---
 
