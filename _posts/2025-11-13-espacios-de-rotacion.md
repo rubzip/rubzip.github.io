@@ -304,30 +304,16 @@ En ese punto, el sistema pasa de tener 3 grados de libertad a tener solo 2.
 
 ### Intuición geométrica
 
-<table>
-  <tr>
-    <td style="vertical-align: top; width: 50%; padding-right: 20px;">
-
-Cuando $$\theta = \pm \frac{\pi}{2}$$, las rotaciones alrededor de los ejes externos e internos (por ejemplo, $$\phi$$ y $$\psi$$) se alinean y producen rotaciones equivalentes.
-
+Cuando $$\theta = \pm \frac{\pi}{2}$$, las rotaciones alrededor de los ejes externos e internos (por ejemplo, $$\phi$$ y $$\psi$$) se alinean y producen rotaciones equivalentes.  
 En otras palabras:
 
 - Girar con $$\phi$$ produce exactamente la misma rotación que girar con $$\psi$$.  
 - El sistema pierde un eje independiente.
 
 El mecanismo físico equivalente son **tres anillos cardán (gimbals)**, donde dos de ellos quedan alineados, anulando uno de los grados de libertad.
-
-    </td>
-
-    <td style="vertical-align: top; width: 50%; text-align: center;">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif" alt="Gimbal" style="max-width: 100%;">
-
-    </td>
-  </tr>
-</table>
-
-
+<p align="center">
+![Gimball](https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif)
+</p>
 ---
 
 ### *Gimbal lock* en la misión Apolo 11
