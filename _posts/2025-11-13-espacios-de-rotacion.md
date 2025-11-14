@@ -25,7 +25,7 @@ donde $$I$$ es la matriz identidad $$3\times3$$.
 **Propiedad 1: Determinante**
 
 $$
-\det(R) = \pm 1
+\det(R) = \pm 1 \quad
 \forall R \in O(3)
 $$
 
@@ -37,7 +37,7 @@ $$
 $$
 
 $$
-\det(R R^T) = \det(R) \cdot \det(R^T) = \det(R)^2 = 1
+\det(R R^T) = \det(R) \det(R^T) = \det(R)^2 = 1
 $$
 
 $$
@@ -50,7 +50,7 @@ El determinante no puede ser un numero complejo ya que R está definido sobre $$
 **Propiedad 2: Conservación del módulo**
 
 $$
-\left\| R u \right\| = \left\| u\right\| \forall u \in \mathbb{R}^3
+\left\| R u \right\| = \left\| u\right\| \quad \forall u \in \mathbb{R}^3
 $$
 
 **Demostración:**
@@ -67,7 +67,7 @@ $$
 
 **Propiedad 3: Conservación del ángulo**
 $$
-\widehat{u v} = \widehat{u' v'} \forall u, v \in \mathbb{R}^3
+\widehat{u v} = \widehat{u' v'} \quad \forall u, v \in \mathbb{R}^3
 $$
 
 $$
@@ -136,7 +136,7 @@ Este subconjunto es el más relevante para **rotaciones en robótica**, ya que r
 
 ### Diagonalización
 
-Sea $$R \in SO(3)$$. La diagonalización formal implica que existen vectores propios $$u \in \mathbb{R}^3$$ y valores propios $$\lambda$$ tales que:
+La diagonalización formal implica que existen vectores propios $$u \in \mathbb{R}^3$$ y valores propios $$\lambda$$ tales que:
 
 $$
 R u = \lambda u
@@ -153,6 +153,7 @@ Además, dado que $$R$$ conserva el módulo de cualquier vector:
 $$
 \left\| R u \right\| = \left\| u\right\|
 $$
+
 $$
 \det{R} \left\| u\right\| = \left | \lambda \right | \left\| u\right\|
 $$
@@ -201,6 +202,7 @@ Toda matriz de $$SO(3)$$ tiene **un autovalor igual a 1**, y los otros dos forma
 ### Grados de libertad de SO(3)
 
 Los operadores $$R \in SO(3)$$ se definen a partir del conjunto de autovalores:
+
 $$
 \lambda = \{ e^{i\theta}, e^{-i\theta}, 1 \}, \quad \theta \in [0, 2\pi)
 $$
@@ -218,6 +220,7 @@ Como queda demostrado el subconjunto de rotaciones en $$\mathbb{R}^3$$ cuenta co
 
 ### Convención Z-Y-Z
 La selección de los ejes de rotación es completamente arbitraria, una de las más utilizadas es la conocida como Z-Y-Z que consiste en:
+
 $$
 R = R_z(\phi) \cdot R_y(\theta) \cdot R_z(\psi)
 $$
