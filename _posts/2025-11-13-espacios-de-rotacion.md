@@ -273,16 +273,43 @@ R(\alpha, \beta, \gamma) = \begin{pmatrix}
 \end{pmatrix} 
 $$
 
+Para el caso $$\beta = \frac{\pi}{2}$$:
 
 $$
-\cos\theta = 0
+R(\alpha, \frac{\pi}{2}, \gamma) = \begin{pmatrix}
+1 & 0 & 0 \\
+0 & \cos\alpha & -\sin\alpha \\
+0 & \sin\alpha & \cos\alpha \\
+\end{pmatrix} \begin{pmatrix}
+0 &  0 & 1 \\
+0 &  1 & 0 \\
+-1 & 0 & 0 \\
+\end{pmatrix}
+\begin{pmatrix}
+\cos\gamma & -\sin\gamma & 0 \\
+\sin\gamma & \cos\gamma & 0 \\
+0 & 0 & 1 \\
+\end{pmatrix} 
 $$
 
-que equivale a:
+$$
+R(\alpha, \frac{\pi}{2}, \gamma) = \begin{pmatrix}
+0 & 0 & 1 \\
+\sin\left ( \alpha + \gamma \right ) & \cos\left ( \alpha + \gamma \right ) & 0 \\
+-\cos\left ( \alpha + \gamma \right ) & \sin\left ( \alpha + \gamma \right ) & 0 \\
+\end{pmatrix}
+$$
+
+De manera que la composición de rotaciones de $$\alpha$$ y $$\beta$$ (2 grados de libertad) puede simplificarse en una única rotación (1 grado de libertad). Esto se debe a que ambas se componen sobre un mismo plano:
 
 $$
-\theta = \frac{\pi}{2} \quad \text{o} \quad \theta = -\frac{\pi}{2}
+R(\alpha, \frac{\pi}{2}, \gamma) = R(\theta) = \begin{pmatrix}
+0 & 0 & 1 \\
+\sin\theta & \cos\theta & 0 \\
+-\cos\theta & \sin\theta & 0 \\
+\end{pmatrix}
 $$
+
 
 ---
 
