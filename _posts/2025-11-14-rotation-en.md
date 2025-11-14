@@ -262,17 +262,62 @@ The best-known issue is the phenomenon called **gimbal lock**.
 
 *Gimbal lock* occurs when, due to the combination of two rotations, **two rotation planes become parallel**, causing one of the three degrees of freedom to be lost.
 
-For the Euler parameterizations **Z–Y–Z** or **Z–Y–X**, this problem appears when:
+Let the rotation be:
 
 $$
-\cos\theta = 0
+R(\alpha, \beta, \gamma) = \begin{pmatrix}
+1 & 0 & 0 \\
+0 & \cos\alpha & -\sin\alpha \\
+0 & \sin\alpha & \cos\alpha \\
+\end{pmatrix} \begin{pmatrix}
+\cos\beta & 0 & \sin\beta \\
+0 & 1 & 0 \\
+-\sin\beta & 0 &\cos\beta \\
+\end{pmatrix}
+\begin{pmatrix}
+\cos\gamma & -\sin\gamma & 0 \\
+\sin\gamma & \cos\gamma & 0 \\
+0 & 0 & 1 \\
+\end{pmatrix} 
 $$
 
-which is equivalent to:
+For th case $$\beta = \frac{\pi}{2}$$:
 
 $$
-\theta = \frac{\pi}{2} \quad \text{or} \quad \theta = -\frac{\pi}{2}
+R(\alpha, \frac{\pi}{2}, \gamma) = \begin{pmatrix}
+1 & 0 & 0 \\
+0 & \cos\alpha & -\sin\alpha \\
+0 & \sin\alpha & \cos\alpha \\
+\end{pmatrix} \begin{pmatrix}
+0 &  0 & 1 \\
+0 &  1 & 0 \\
+-1 & 0 & 0 \\
+\end{pmatrix}
+\begin{pmatrix}
+\cos\gamma & -\sin\gamma & 0 \\
+\sin\gamma & \cos\gamma & 0 \\
+0 & 0 & 1 \\
+\end{pmatrix} 
 $$
+
+$$
+R(\alpha, \frac{\pi}{2}, \gamma) = \begin{pmatrix}
+0 & 0 & 1 \\
+\sin\left ( \alpha + \gamma \right ) & \cos\left ( \alpha + \gamma \right ) & 0 \\
+-\cos\left ( \alpha + \gamma \right ) & \sin\left ( \alpha + \gamma \right ) & 0 \\
+\end{pmatrix}
+$$
+
+Thus, the composition of rotations of $$\beta$$ and $$\beta$$ (2 degrees of freedom) can be simplified into a single rotation (1 degree of freedom). This happens because both rotations occur on the same plane:
+
+$$
+R(\alpha, \frac{\pi}{2}, \gamma) = R(\theta) = \begin{pmatrix}
+0 & 0 & 1 \\
+\sin\theta & \cos\theta & 0 \\
+-\cos\theta & \sin\theta & 0 \\
+\end{pmatrix}
+$$
+
 
 ---
 
