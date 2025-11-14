@@ -20,7 +20,7 @@ donde $$I$$ es la matriz identidad $$3\times3$$.
 
 ---
 
-### Propiedad 1: Determinante**
+**Propiedad 1: Determinante**
 
 $$
 \det(R) = \pm 1 \quad
@@ -28,7 +28,7 @@ $$
 $$
 
 
-### **Demostración:**
+**Demostración:**
 
 $$
 \det(R R^T) = \det(I) = 1
