@@ -1,5 +1,5 @@
 ---
-title: 'Robótica. Tema 0: Espacios de Rotación'
+title: 'Robótica. Espacios de Rotación'
 date: 2025-11-13
 permalink: /posts/2025/11/t0rotacion/
 tags:
