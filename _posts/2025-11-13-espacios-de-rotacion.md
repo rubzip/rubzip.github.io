@@ -235,3 +235,105 @@ donde:
 1. **Representación completa:** cualquier $$R \in SO(3)$$ puede escribirse como combinación de tres rotaciones elementales.
 2. **Grados de libertad:** los tres ángulos de Euler $$(\phi, \theta, \psi)$$ representan los **tres grados de libertad** de $$SO(3)$$.
 3. **Composición de rotaciones:** multiplicar matrices corresponde a aplicar secuencialmente las rotaciones.
+4. 
+## 0.5 Problema de los Ángulos de Euler: *Gimbal Lock*
+
+Los ángulos de Euler son una herramienta muy útil para describir rotaciones en \(\mathbb{R}^3\).  
+Permiten parametrizar cualquier matriz \(R \in SO(3)\) mediante tres ángulos.  
+Sin embargo, **no son una representación perfecta** y presentan limitaciones importantes.  
+
+La más conocida es el fenómeno llamado **gimbal lock**.
+
+---
+
+### ¿Qué es el *gimbal lock*?
+
+El *gimbal lock* ocurre cuando, debido a la combinación de dos de las rotaciones, **dos planos de rotación se vuelven paralelos**, haciendo que se pierda uno de los tres grados de libertad.
+
+En el caso de la parametrización de Euler **Z–Y–Z** o **Z–Y–X**, este problema aparece cuando:
+
+$$
+\cos\theta = 0
+$$
+
+que equivale a:
+
+$$
+\theta = \frac{\pi}{2} \quad \text{o} \quad \theta = -\frac{\pi}{2}
+$$
+
+---
+
+### Demostración mediante el Jacobiano
+
+Sea \(R(\phi, \theta, \psi)\) la matriz de rotación en ángulos de Euler.  
+El Jacobiano respecto a los tres parámetros está dado por:
+
+$$
+J = 
+\begin{pmatrix}
+\frac{\partial R}{\partial \phi} &
+\frac{\partial R}{\partial \theta} &
+\frac{\partial R}{\partial \psi}
+\end{pmatrix}
+$$
+
+El determinante del Jacobiano representa la **capacidad de los tres ángulos para generar variaciones independientes de orientación**.
+
+En particular, en las parametrizaciones comunes se cumple que:
+
+$$
+\det(J) = \cos\theta
+$$
+
+Por tanto:
+
+$$
+\cos\theta = 0 \quad \Rightarrow \quad \det(J) = 0
+$$
+
+Cuando el determinante es cero, el Jacobiano **pierde rango**, lo que significa que **las variaciones de los tres ángulos ya no generan tres grados de libertad independientes**.
+
+En ese punto, el sistema pasa de tener 3 grados de libertad a tener solo 2.
+
+---
+
+### Intuición geométrica
+
+Cuando \(\theta = \pm \frac{\pi}{2}\), las rotaciones alrededor de los ejes externos e internos (por ejemplo, \(\phi\) y \(\psi\)) se alinean y producen rotaciones equivalentes.  
+En otras palabras:
+
+- Girar con \(\phi\) produce exactamente la misma rotación que girar con \(\psi\).  
+- El sistema pierde un eje independiente.
+
+El mecanismo físico equivalente son **tres anillos cardán (gimbals)**, donde dos de ellos quedan alineados, anulando uno de los grados de libertad.
+![Gimball](https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif)
+
+---
+
+### Referencia histórica: el *gimbal lock* en la misión Apolo 11
+
+El fenómeno del *gimbal lock* afectó de manera real a sistemas de navegación durante décadas, especialmente en misiones espaciales.
+
+En el **Apolo 11**, la plataforma de navegación inercial utilizaba un sistema de **tres gimbals** para mantener la orientación de la nave.  
+Los ingenieros sabían que si la nave alcanzaba una orientación cercana al *gimbal lock*, el sistema perdería un grado de libertad y quedaría prácticamente “ciego” a ciertas rotaciones.
+
+Durante la misión, al descender hacia la Luna, Neil Armstrong y Buzz Aldrin fueron advertidos **varias veces** de evitar maniobras que llevaran la plataforma a la región crítica donde:
+
+$$
+\theta \approx \pm 90^\circ
+$$
+
+Si el sistema hubiera entrado en *gimbal lock* durante el descenso, habría sido necesario **reinicializar toda la plataforma inercial**, un proceso lento y peligroso que habría obligado a abortar el alunizaje.
+
+Este riesgo fue una de las razones por las cuales posteriormente se adoptaron sistemas basados en **cuaterniones**, que no sufren *gimbal lock*.
+
+---
+
+### Conclusión
+
+- Los ángulos de Euler permiten describir cualquier rotación en 3D.  
+- Pero en ciertas configuraciones (cuando \(\cos\theta = 0\)), se pierde un grado de libertad: *gimbal lock*.  
+- El problema tuvo consecuencias reales en sistemas de navegación como el del Apolo 11.  
+- Una solución común en robótica moderna es emplear **cuaterniones**, libres de este problema.
+
