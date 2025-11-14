@@ -307,11 +307,12 @@ En otras palabras:
 - El sistema pierde un eje independiente.
 
 El mecanismo físico equivalente son **tres anillos cardán (gimbals)**, donde dos de ellos quedan alineados, anulando uno de los grados de libertad.
+
 ![Gimball](https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif)
 
 ---
 
-### Referencia histórica: el *gimbal lock* en la misión Apolo 11
+### *Gimbal lock* en la misión Apolo 11
 
 El fenómeno del *gimbal lock* afectó de manera real a sistemas de navegación durante décadas, especialmente en misiones espaciales.
 
@@ -326,7 +327,7 @@ $$
 
 Si el sistema hubiera entrado en *gimbal lock* durante el descenso, habría sido necesario **reinicializar toda la plataforma inercial**, un proceso lento y peligroso que habría obligado a abortar el alunizaje.
 
-Este riesgo fue una de las razones por las cuales posteriormente se adoptaron sistemas basados en **cuaterniones**, que no sufren *gimbal lock*.
+After the Lunar Module had landed, Mike Collins aboard the Command Module joked "How about sending me a fourth gimbal for Christmas?"
 
 ---
 
