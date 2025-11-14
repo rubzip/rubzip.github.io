@@ -311,9 +311,9 @@ En otras palabras:
 - El sistema pierde un eje independiente.
 
 El mecanismo físico equivalente son **tres anillos cardán (gimbals)**, donde dos de ellos quedan alineados, anulando uno de los grados de libertad.
-<p align="center">
+
 ![Gimball](https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif)
-</p>
+
 ---
 
 ### *Gimbal lock* en la misión Apolo 11
