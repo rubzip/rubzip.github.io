@@ -18,7 +18,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: 'https://rubzip.gitlab.io',
+  site: 'https://rubzip.github.io',
   base: '/',
   integrations: [sitemap()],
 });

@@ -1,7 +1,7 @@
 import type { SiteConfig, ThemeConfig, SettingsConfig, UmamiAnalyticsConfig, AnalyticsConfig } from "../types";
 
 export const SITE: SiteConfig = {
-    website: "https://rubzip.gitlab.io",
+    website: "https://rubzip.github.io",
     author: "Rubén Gijón",
     desc: "Personal academic portfolio and blog of Rubén Gijón, predoctoral researcher at USC.",
     title: "Rubén Gijón",
